@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+10&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  color: #fff;
+  font-family: "Jersey 10", serif;
+  letter-spacing: 2px;
+  font-weight: regular;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 40px;
+  padding-top: 9px;
+}
+
+#balance {
+  font-size: 64px;
+  margin-top: 32px;
+  margin-bottom: 82px;
+}
+
+.wallet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.coin {
+  display: flex;
+  background-color: #0f0f0f;
+  width: 316px;
+  height: 60px;
+  border-radius: 10px;
+  justify-content: space-between;
+  box-shadow: inset 0px 0px 0px 4px rgba(255, 255, 255, 1);
+}
+
+.coins {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  overflow: scroll;
+}
+
+.left img {
+  width: 31px;
+  height: 31px;
+  margin-left: 21px;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 21px;
+}
+
+.right h2 {
+  text-align: end;
+  width: 100%;
+  gap: 22px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 11px;
+}
+
+.crypto-amount {
+  color: #343434;
+}
+
+.crypto-price,
+.crypto-amount {
+  font-size: 24px;
+}
+
+.crypto-name {
+  font-size: 32px;
+}
+
+.left img {
+}
